@@ -45,7 +45,7 @@ public class Main {
 
 	public static List<String> readFile() {
 		List<String> list = new ArrayList<>();
-		try(Scanner scanner = new Scanner(new File("day2.txt"))) {
+		try(Scanner scanner = new Scanner(new File("files/day2.txt"))) {
 			while (scanner.hasNext()) {
 				list.add(scanner.next() + " " + scanner.next());
 			}

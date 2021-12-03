@@ -19,7 +19,7 @@ public class Measurement {
 
 	public static List<Integer> readMeasurements() {
 		ArrayList<Integer> list = new ArrayList<>();
-		try(Scanner scanner = new Scanner(new File("puzzle_input.txt"))) {
+		try(Scanner scanner = new Scanner(new File("files/puzzle_input.txt"))) {
 			while (scanner.hasNextInt()) {
 				list.add(scanner.nextInt());
 			}
